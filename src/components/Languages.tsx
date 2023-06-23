@@ -8,11 +8,11 @@ import Image from 'next/image';
 
 export function Languages() {
   return (
-    <div className="mt-10 flex-row mx-10 flex-1">
-      <h1 className="mb-2 text-2xl items-center justify-center font-bold flex flex-1">
+    <div className="mt-10 flex flex-col gap-8">
+      <h1 className="text-[40px] items-center justify-center flex font-bold">
         Linguagens
       </h1>
-      <div className="items-center justify-between font-bold flex flex-1 mx-80 mt-6">
+      <div className="items-center justify-between md:justify-center font-bold flex gap-4 flex-wrap">
         <Image className="w-20 h-20" src={python} alt="python" />
         <Image className="w-20 h-20" src={nodejs} alt="node" />
         <Image className="w-20 h-20" src={sql} alt="SQL" />

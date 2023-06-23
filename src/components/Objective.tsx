@@ -1,10 +1,8 @@
 export function Objective() {
   return (
-    <div className="px-10 py-10 flex-row bg-[#f6faff] ">
-      <h1 className="pb-5 text-[40px] items-center justify-center font-bold flex flex-1">
-        Objetivo
-      </h1>
-      <p className="text-justify text-lg">
+    <div className="flex flex-col gap-4 px-4 items-center">
+      <h1 className="text-[40px] font-bold">Objetivo</h1>
+      <p className="text-justify text-lg max-w-[500px]">
         Objetivo Criar um banco de dados, a partir da unificação, consolidação e
         limpeza de dados, além de serviços de scraping que automatizem essas
         tarefas no futuro, e integrar a base de dados a um B.I., gerando um

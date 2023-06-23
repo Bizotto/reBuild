@@ -4,8 +4,9 @@ import React from 'react';
 
 export function Header() {
   return (
-    <div className="pb-10 bg-[#f6faff]">
-      <div className="pt-10 shadow-lg shadow-slate-700 flex-row flex-1 text-white rounded-b-3xl justify-center items-center bg-[url(../assets/header-background.svg)]">
+    <div className="flex-row text-white rounded-b-3xl justify-center items-center overflow-hidden">
+      <div className="w-full h-1/2 bg-[url(../assets/header-background.svg)] shadow-slate-600  shadow-lg rounded-b-3xl absolute -z-20 top-0 right-0 left-0" />
+      <div className="z-50">
         <div className="flex flex-1 justify-center items-center">
           <Image src={logo} alt="Logo" />
         </div>

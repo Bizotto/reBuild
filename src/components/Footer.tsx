@@ -6,20 +6,14 @@ import cirulos from '@/assets/circulosLogo.svg';
 
 export function Footer() {
   return (
-    <div>
-      <div className="w-full h-[0.5px] bg-slate-600 mt-10" />
-      <div className=" pr-10 flex flex-1 bg-black items-center justify-start ">
-        <footer className="items-center justify-start mt-5 flex-1 mx-10 mb-5 flex">
-          <Image className="w-20 mr-4" src={cesusc} alt="logo cesusc" />
-          <Image className="w-20 mr-4" src={logo} alt="logo" />
-          <Image
-            className="w-60"
-            src={cirulos}
-            alt="Círculos de Hospitalidade"
-          />
-        </footer>
-        <p className="text-white">Made with 💜 by Cesusc</p>
+    <footer className="w-full bg-black p-4 items-center justify-between flex flex-col md:flex-row">
+      <div className="flex items-center justify-start space-x-4">
+        <Image className="w-20" src={cesusc} alt="logo cesusc" />
+        <Image className="w-20" src={logo} alt="logo" />
+        <Image className="w-60" src={cirulos} alt="Círculos de Hospitalidade" />
       </div>
-    </div>
+
+      <p className="mt-4 md:mt-0 text-white">Made with 💜 by Cesusc</p>
+    </footer>
   );
 }

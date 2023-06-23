@@ -1,19 +1,24 @@
 import React from 'react';
+import Image from 'next/image';
+import imagem2 from '@/assets/imagem2.svg';
 
 export function Purpose() {
   return (
-    <div className="pb-10 bg-[#6B96F1]">
-      <div
-        id="objetivo"
-        className="shadow-xl px-10 rounded-b-3xl pb-10 flex-row bg-white "
-      >
-        <h1 className=" text-2xl items-center justify-center font-bold flex flex-1">
-          Proposta de valor | Objetivo
-        </h1>
-        <p className="text-justify">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-          dolores, maiores harum itaque est architecto illo dolorum ne
-        </p>
+    <div className="px-10 py-10">
+      <div className="grid grid-cols-2">
+        <div className="flex flex-1 ml-10 items-center justify-center">
+          <Image src={imagem2} alt="Foto da ong" />
+        </div>
+        <div>
+          <h1 className="mb-2 text-[40px] items-center justify-center font-bold flex flex-1">
+            Proposta de valor
+          </h1>
+          <p className="text-justify text-lg">
+            A proposta de valor do projeto REBUILD tem cunho social, e visa
+            auxiliar a ONG a automatizar seus serviços por meio de serviços de
+            scraping, economizando tempo e recursos da organização.
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -8,14 +8,17 @@ import { Line } from '@/components/Line';
 import { Objective } from '@/components/Objective';
 import { Dashboard } from '@/components/Dashboard';
 import { Button } from '@/components/Button';
+import { Idea } from '@/components/Idea';
 
 export default function Home() {
   return (
     <main>
       <Button />
+      <Header />
       <div className="max-w-7xl mx-auto">
-        <div className="min-h-screen flex flex-col justify-between space-y-10">
-          <Header />
+        <div className="flex flex-col justify-between space-y-10">
+          <Idea />
+          <Line />
           <About />
           <Line />
         </div>

@@ -33,7 +33,7 @@ export default function OurTeam() {
       />
       <PlayerCard
         github="https://github.com/igorjosemartins"
-        name="Igor de Oliveira"
+        name="Igor Martins"
         role="Desenvolvedor"
         linkedin="https://www.linkedin.com/in/igor-josé-martins/"
         image={igo}

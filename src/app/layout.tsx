@@ -1,3 +1,4 @@
+import { Footer } from '@/components/Footer';
 import './globals.css';
 import { Inter } from 'next/font/google';
 
@@ -15,7 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#f6faff]`}>{children}</body>
+      <body className={`${inter.className} bg-[#f6faff]`}>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

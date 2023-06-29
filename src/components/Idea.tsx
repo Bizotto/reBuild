@@ -11,7 +11,7 @@ export function Idea() {
         Faculdade CESUSC, informando que necessitava de uma solução para
         otimizar o tempo de trabalho dos voluntários da organização,
         substituindo os trabalhos manuais de preenchimento e validação de
-        informações por uma solução de automação via scraping.
+        informações por uma solução Automatizada.
       </p>
     </div>
   );

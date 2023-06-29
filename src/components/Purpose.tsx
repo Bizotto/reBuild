@@ -15,7 +15,7 @@ export function Purpose() {
         <p className="text-justify text-lg">
           A proposta de valor do projeto REBUILD tem cunho social, e visa
           auxiliar a ONG a automatizar seus serviços por meio de serviços de
-          scraping, economizando tempo e recursos da organização.
+          limpeza e organização, economizando tempo e recursos.
         </p>
       </div>
     </div>

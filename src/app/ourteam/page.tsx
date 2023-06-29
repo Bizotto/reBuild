@@ -1,5 +1,5 @@
 import { PlayerCard } from '@/components/PlayerCard';
-import nick from '@/assets/ProfileImages/nick.jpeg';
+import nick from '@/assets/ProfileImages/nick.jpg';
 import jen from '@/assets/ProfileImages/jen.jpg';
 import mat from '@/assets/ProfileImages/mat.jpg';
 import jao from '@/assets/ProfileImages/jao.jpeg';
